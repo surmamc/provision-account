@@ -1,4 +1,4 @@
-# How to create a cluster using kops close to the Door Dash configuration
+# How to create a cluster using kops
 
 Use kops to "create" a cluster.  kops is interesting as it like git.  You have a local concept or abstraction of a cluster.  You create this with kop create cluster....
 I have document this is in run-kops.sh.
