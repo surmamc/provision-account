@@ -14,6 +14,7 @@ kops create cluster --name=k8s-cluster.k8s.local \
   --node-count=2 \
   --container-runtime=containerd \
   --kubernetes-version="1.20.9" \
+  --authorization=RBAC \
   --dry-run \
   -oyaml > erase.yaml
 
